@@ -5,14 +5,23 @@
   "scripts": {
     "fusion": "fusion",
     "start": "fusion start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@arc-fusion/cli": "2.3.0"
+    "@arc-fusion/cli": "2.3.0",
+    "@babel/core": "^7.28.5",
+    "@babel/preset-env": "^7.28.5",
+    "@babel/preset-react": "^7.28.5",
+    "babel-loader": "^10.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "webpack": "^5.103.0",
+    "webpack-cli": "^6.0.1"
   },
   "dependencies": {
     "react-compare-image": "^3.5.13"
